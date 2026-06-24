@@ -30,22 +30,22 @@ This repository documents my work during the VSD Mixed-Signal Physical Design in
 
 #### Week 2 Progress Index
 
-| Study                        | Link                                             |
-| ---------------------------- | ------------------------------------------------ |
-| Repository Analysis          | ./Week2_Task/Prompts/01_Repo_Analysis.md         |
-| Required Input Files         | ./Week2_Task/Prompts/02_Required_Input_Files.md  |
-| AMUX2_3V Macro Study         | ./Week2_Task/Prompts/03_AMUX2_3V_Macro_Study.md  |
-| Macro File Inspection        | ./Week2_Task/Prompts/04_Macro_File_Inspection.md |
-| IO Placement Study           | ./Week2_Task/Prompts/05_IO_Placement_Study.md    |
-| OpenLane Configuration Study | ./Week2_Task/Prompts/06_OpenLane_Config_Study.md |
-| GDS Integration Study        | ./Week2_Task/Prompts/07_GDS_Integration_Study.md |
+| Study                        | Link                                             				|
+| ---------------------------- | ------------------------------------------------------------------------------ |
+| Repository Analysis          | [01_Repo_Analysis](./Week2_Task/Prompts/01_Repo_Analysis.md)                	|
+| Required Input Files         | [02_Required_Input_Files](./Week2_Task/Prompts/02_Required_Input_Files.md)  	|
+| AMUX2_3V Macro Study         | [03_AMUX2_3V_Macro_Study](./Week2_Task/Prompts/03_AMUX2_3V_Macro_Study.md)  	|
+| Macro File Inspection        | [04_Macro_File_Inspection](./Week2_Task/Prompts/04_Macro_File_Inspection.md)	|
+| IO Placement Study           | [05_IO_Placement_Study](./Week2_Task/Prompts/05_IO_Placement_Study.md) 	|
+| OpenLane Configuration Study | [06_OpenLane_Config_Study](./Week2_Task/Prompts/06_OpenLane_Config_Study.md)	|
+| GDS Integration Study        | [07_GDS_Integration_Study](./Week2_Task/Prompts/07_GDS_Integration_Study.md)	|
 
 #### Codex Prompt Library
 
-| Prompt                                  | Link                                                        |
-| --------------------------------------- | ----------------------------------------------------------- |
-| Codex Prompt 01 - Repository Analysis   | ./Week2_Task/Codex_Prompts/Codex_Prompt_01_Repo_Analysis.md |
-| Codex Prompt 02 - Analog Macro Analysis | ./Week2_Task/Codex_Prompts/Codex_Prompt_02_Macro_Study.md   |
+| Prompt                                  | Link                                                        		    |
+| --------------------------------------- | ------------------------------------------------------------------------------- |
+| Codex Prompt 01 - Repository Analysis   | [01_Repo_Analysis](./Week2_Task/Codex_Prompts/Codex_Prompt_01_Repo_Analysis.md) |
+| Codex Prompt 02 - Analog Macro Analysis | [02_Macro_Study](./Week2_Task/Codex_Prompts/Codex_Prompt_02_Macro_Study.md)     |
 
 
 ---
