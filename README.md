@@ -67,9 +67,10 @@ This repository documents my work during the VSD Mixed-Signal Physical Design in
 
 #### Observations
 
-| Document 			| Link 														|
-|-------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Week 2 Status Summary 	| [Week2_Status_Summary](./Week2_Task/Observations/Week2_Status_Summary.md)					|
+| Document 				| Link 														|
+|---------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| Week 2 Status Summary 		| [Week2_Status_Summary](./Week2_Task/Observations/Week2_Status_Summary.md)					|
+| Prompt History and Traceability 	| [Prompt_History](./Week2_Task/Observations/Prompt_History.md)						 	|
 
 ---
 
