@@ -58,6 +58,12 @@ This repository documents my work during the VSD Mixed-Signal Physical Design in
 | Macro Pin Access Failure 	| [01_Macro_Pin_Access](./Week2_Task/Errors_and_Fixes/Error_01_Macro_Pin_Access.md)			|
 | Power Connectivity Warnings 	| [02_Power_Connectivity](./Week2_Task/Errors_and_Fixes/Error_02_Power_Connectivity_Warnings.md) 	|
 
+#### Command Logs
+
+| Command Log 			    | Link 														|
+|-----------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| Environment and Design Inspection | [01_Environment_and_Design_Inspection](./Week2_Task/Commands/Command_Log_01_Environment_and_Design_Inspection.md)	|
+
 ---
 
 ### Week 3 - AI-Assisted Verification and Debugging
