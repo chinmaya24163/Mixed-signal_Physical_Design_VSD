@@ -72,6 +72,7 @@ This repository documents my work during the VSD Mixed-Signal Physical Design in
 | Week 2 Status Summary 		| [Week2_Status_Summary](./Week2_Task/Observations/Week2_Status_Summary.md)					|
 | Prompt History and Traceability 	| [Prompt_History](./Week2_Task/Observations/Prompt_History.md)						 	|
 | Deliverables Checklist 		| [Deliverables_Checklist](./Week2_Task/Observations/Deliverables_Checklist.md) 				|
+| Tools and Environment 		| [Tools_and_Environment](./Week2_Task/Observations/Tools_and_Environment.md) 					|
 
 ---
 
