@@ -49,6 +49,7 @@ This repository documents my work during the VSD Mixed-Signal Physical Design in
 | Codex Prompt 03 - OpenLane Config Generation  | [03_OpenLane_Config_Generation](./Week2_Task/Codex_Prompts/Codex_Prompt_03_OpenLane_Config_Generation.md)	|
 | Codex Prompt 04 - PDN Hook Generation 	| [04_PDN_Hook_Generation](./Week2_Task/Codex_Prompts/Codex_Prompt_04_PDN_Hook_Generation.md) 	           	|
 | Codex Prompt 05 - Macro Pin Access Debug 	| [05_Macro_Pin_Access_Debug](./Week2_Task/Codex_Prompts/Codex_Prompt_05_Macro_Pin_Access_Debug.md)		|
+| Codex Prompt 06 - Power Connectivity Debug 	| [06_Power_Connectivity_Debug](./Week2_Task/Codex_Prompts/Codex_Prompt_06_Power_Connectivity_Debug.md) 	|
 
 ---
 
