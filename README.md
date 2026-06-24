@@ -63,6 +63,7 @@ This repository documents my work during the VSD Mixed-Signal Physical Design in
 | Command Log 			    | Link 														|
 |-----------------------------------|-------------------------------------------------------------------------------------------------------------------|
 | Environment and Design Inspection | [01_Environment_and_Design_Inspection](./Week2_Task/Commands/Command_Log_01_Environment_and_Design_Inspection.md)	|
+| GDS Integration Investigation     | [02_GDS_Investigation](./Week2_Task/Commands/Command_Log_02_GDS_Investigation.md) 				|
 
 ---
 
