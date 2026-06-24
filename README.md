@@ -48,6 +48,7 @@ This repository documents my work during the VSD Mixed-Signal Physical Design in
 | Codex Prompt 02 - Analog Macro Analysis       | [02_Macro_Study](./Week2_Task/Codex_Prompts/Codex_Prompt_02_Macro_Study.md)     			   	|
 | Codex Prompt 03 - OpenLane Config Generation  | [03_OpenLane_Config_Generation](./Week2_Task/Codex_Prompts/Codex_Prompt_03_OpenLane_Config_Generation.md)	|
 | Codex Prompt 04 - PDN Hook Generation 	| [04_PDN_Hook_Generation](./Week2_Task/Codex_Prompts/Codex_Prompt_04_PDN_Hook_Generation.md) 	           	|
+| Codex Prompt 05 - Macro Pin Access Debug 	| [05_Macro_Pin_Access_Debug](./Week2_Task/Codex_Prompts/Codex_Prompt_05_Macro_Pin_Access_Debug.md)		|
 
 ---
 
@@ -87,5 +88,5 @@ https://github.com/praharshapm/vsdmixedsignalflow
 
 **Chinmaya Sharma**
 
-B.Tech Electronics and VLSI Engineering  
+B.Tech Electronics and VLSI Engineering '28,  
 IIIT Delhi
