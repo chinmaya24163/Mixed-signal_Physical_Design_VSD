@@ -42,11 +42,12 @@ This repository documents my work during the VSD Mixed-Signal Physical Design in
 
 #### Codex Prompt Library
 
-| Prompt                                  | Link                                                        		    |
-| --------------------------------------- | ------------------------------------------------------------------------------- |
-| Codex Prompt 01 - Repository Analysis   | [01_Repo_Analysis](./Week2_Task/Codex_Prompts/Codex_Prompt_01_Repo_Analysis.md) |
-| Codex Prompt 02 - Analog Macro Analysis | [02_Macro_Study](./Week2_Task/Codex_Prompts/Codex_Prompt_02_Macro_Study.md)     |
-
+| Prompt                                  	| Link                                                        		          				|
+| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| Codex Prompt 01 - Repository Analysis   	| [01_Repo_Analysis](./Week2_Task/Codex_Prompts/Codex_Prompt_01_Repo_Analysis.md) 				|
+| Codex Prompt 02 - Analog Macro Analysis       | [02_Macro_Study](./Week2_Task/Codex_Prompts/Codex_Prompt_02_Macro_Study.md)     			   	|
+| Codex Prompt 03 - OpenLane Config Generation  | [03_OpenLane_Config_Generation](./Week2_Task/Codex_Prompts/Codex_Prompt_03_OpenLane_Config_Generation.md)	|
+| Codex Prompt 04 - PDN Hook Generation 	| [04_PDN_Hook_Generation](./Week2_Task/Codex_Prompts/Codex_Prompt_04_PDN_Hook_Generation.md) 	           	|
 
 ---
 
