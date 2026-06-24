@@ -65,6 +65,12 @@ This repository documents my work during the VSD Mixed-Signal Physical Design in
 | Environment and Design Inspection | [01_Environment_and_Design_Inspection](./Week2_Task/Commands/Command_Log_01_Environment_and_Design_Inspection.md)	|
 | GDS Integration Investigation     | [02_GDS_Investigation](./Week2_Task/Commands/Command_Log_02_GDS_Investigation.md) 				|
 
+#### Observations
+
+| Document 			| Link 														|
+|-------------------------------|---------------------------------------------------------------------------------------------------------------|
+| Week 2 Status Summary 	| [Week2_Status_Summary](./Week2_Task/Observations/Week2_Status_Summary.md)					|
+
 ---
 
 ### Week 3 - AI-Assisted Verification and Debugging
