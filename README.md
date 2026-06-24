@@ -18,14 +18,35 @@ This repository documents my work during the VSD Mixed-Signal Physical Design in
 
 ### Week 2 - AI-Assisted Mixed-Signal Flow Generation
 
-| Section | Description |
-|----------|-------------|
-| [Prompts](./Week2_Task/Prompts/) | AI prompts used for repo analysis and file generation |
-| [Generated Files](./Week2_Task/Generated_Files/) | AI-generated Verilog, config and support files |
-| [Commands](./Week2_Task/Commands/) | Tool commands and execution logs |
-| [Errors and Fixes](./Week2_Task/Errors_and_Fixes/) | Debugging history and resolutions |
-| [Screenshots](./Week2_Task/Screenshots/) | Flow execution screenshots |
-| [Observations](./Week2_Task/Observations/) | Notes and findings |
+| Section                                            | Description                                                                                   |
+| -------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| [Prompts](./Week2_Task/Prompts/)                   | AI-assisted repository analysis, macro studies, configuration studies and flow investigations |
+| [Codex Prompts](./Week2_Task/Codex_Prompts/)       | Low-token Codex-ready prompts for reproducing each stage of the mixed-signal flow             |
+| [Generated Files](./Week2_Task/Generated_Files/)   | AI-generated Verilog, configuration and support files                                         |
+| [Commands](./Week2_Task/Commands/)                 | Tool commands, execution logs and flow runs                                                   |
+| [Errors and Fixes](./Week2_Task/Errors_and_Fixes/) | Debugging history, issues encountered and fixes attempted                                     |
+| [Screenshots](./Week2_Task/Screenshots/)           | Layout, floorplanning, routing and verification screenshots                                   |
+| [Observations](./Week2_Task/Observations/)         | Technical findings, investigations and conclusions                                            |
+
+#### Week 2 Progress Index
+
+| Study                        | Link                                             |
+| ---------------------------- | ------------------------------------------------ |
+| Repository Analysis          | ./Week2_Task/Prompts/01_Repo_Analysis.md         |
+| Required Input Files         | ./Week2_Task/Prompts/02_Required_Input_Files.md  |
+| AMUX2_3V Macro Study         | ./Week2_Task/Prompts/03_AMUX2_3V_Macro_Study.md  |
+| Macro File Inspection        | ./Week2_Task/Prompts/04_Macro_File_Inspection.md |
+| IO Placement Study           | ./Week2_Task/Prompts/05_IO_Placement_Study.md    |
+| OpenLane Configuration Study | ./Week2_Task/Prompts/06_OpenLane_Config_Study.md |
+| GDS Integration Study        | ./Week2_Task/Prompts/07_GDS_Integration_Study.md |
+
+#### Codex Prompt Library
+
+| Prompt                                  | Link                                                        |
+| --------------------------------------- | ----------------------------------------------------------- |
+| Codex Prompt 01 - Repository Analysis   | ./Week2_Task/Codex_Prompts/Codex_Prompt_01_Repo_Analysis.md |
+| Codex Prompt 02 - Analog Macro Analysis | ./Week2_Task/Codex_Prompts/Codex_Prompt_02_Macro_Study.md   |
+
 
 ---
 
