@@ -51,6 +51,12 @@ This repository documents my work during the VSD Mixed-Signal Physical Design in
 | Codex Prompt 05 - Macro Pin Access Debug 	| [05_Macro_Pin_Access_Debug](./Week2_Task/Codex_Prompts/Codex_Prompt_05_Macro_Pin_Access_Debug.md)		|
 | Codex Prompt 06 - Power Connectivity Debug 	| [06_Power_Connectivity_Debug](./Week2_Task/Codex_Prompts/Codex_Prompt_06_Power_Connectivity_Debug.md) 	|
 
+#### Error and Debug History
+
+| Error 		   | Link 										|
+|--------------------------|------------------------------------------------------------------------------------|
+| Macro Pin Access Failure | [01_Macro_Pin_Access](./Week2_Task/Errors_and_Fixes/Error_01_Macro_Pin_Access.md)	|
+
 ---
 
 ### Week 3 - AI-Assisted Verification and Debugging
