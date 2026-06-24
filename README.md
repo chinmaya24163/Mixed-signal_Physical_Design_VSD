@@ -53,9 +53,10 @@ This repository documents my work during the VSD Mixed-Signal Physical Design in
 
 #### Error and Debug History
 
-| Error 		   | Link 										|
-|--------------------------|------------------------------------------------------------------------------------|
-| Macro Pin Access Failure | [01_Macro_Pin_Access](./Week2_Task/Errors_and_Fixes/Error_01_Macro_Pin_Access.md)	|
+| Error 		   	| Link 													|
+|-------------------------------|-------------------------------------------------------------------------------------------------------|
+| Macro Pin Access Failure 	| [01_Macro_Pin_Access](./Week2_Task/Errors_and_Fixes/Error_01_Macro_Pin_Access.md)			|
+| Power Connectivity Warnings 	| [02_Power_Connectivity](./Week2_Task/Errors_and_Fixes/Error_02_Power_Connectivity_Warnings.md) 	|
 
 ---
 
