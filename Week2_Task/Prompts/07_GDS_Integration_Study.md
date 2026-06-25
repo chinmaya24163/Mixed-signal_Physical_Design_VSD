@@ -71,6 +71,14 @@ but did not perform a full analog GDS merge because no macro GDS view was suppli
 
 Established that the reproduced implementation represents a LEF/LIB-based mixed-signal integration flow rather than a complete analog GDS integration flow.
 
-## Follow-up Investigation
+## Updated Observation
 
-The initial investigation focused on the absence of a standalone macro GDS file. A subsequent Week 3 investigation confirmed that the macro is nevertheless preserved, placed and routed in the final implementation.
+The initial investigation focused on determining whether the reproduced implementation merged a standalone `AMUX2_3V.gds` file into the final layout.
+The inspection confirmed that:
+
+* `AMUX2_3V.v`, `AMUX2_3V.lef` and `AMUX2_3V.lib` are provided for the analog macro.
+* No standalone `AMUX2_3V.gds` file is present in the reproduced implementation.
+* The OpenLane configuration does not specify `EXTRA_GDS_FILES`.
+
+Based on the information available during the Week 2 investigation, the exact representation of the analog macro in the final layout could not be conclusively determined.
+A more detailed RTL-to-GDS investigation was subsequently performed during Week 3. That investigation verified that the `AMUX2_3V` macro survives synthesis, floorplanning, placement, detailed routing and DEF generation, and can be identified in the final routed layout. Therefore, the Week 3 investigation refines the initial Week 2 observations regarding macro visibility in the generated GDS.

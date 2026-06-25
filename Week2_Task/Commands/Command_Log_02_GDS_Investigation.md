@@ -120,6 +120,8 @@ No standalone macro GDS file was used during implementation.
 
 ---
 
-## Follow-up Investigation
+## Updated Conclusion
 
-A more detailed RTL-to-GDS trace performed during Week 3 verified that the AMUX2_3V macro survives synthesis, floorplanning, placement, routing and DEF generation, and is present in the final layout. This command log therefore documents the initial investigation, while the Week 3 command log contains the complete verification.
+The GDS investigation confirmed that no standalone `AMUX2_3V.gds` file is provided within the reproduced implementation flow and that the OpenLane configuration does not reference any external macro GDS through `EXTRA_GDS_FILES`.
+At the time of the Week 2 investigation, this prevented a definitive conclusion regarding how the analog macro was represented in the final layout.
+A subsequent Week 3 RTL-to-GDS trace resolved this question by verifying that the `AMUX2_3V` macro is preserved throughout synthesis, floorplanning, placement, detailed routing and DEF generation, and is identifiable in the generated layout. Therefore, this command log documents the initial investigation, while the complete verification is presented in the Week 3 command log and observations.

@@ -1,0 +1,1 @@
+openroad -exit -no_splash -metrics /home/chinmaya24163/MixedSignal_Task1/reproduction/design_mux/runs/RUN_2026-06-14_12-25-22/13-openroad-floorplan/or_metrics_out.json /nix/store/iah2c26wzpgdvqc1jv2xxg55xq5km74d-python3-3.11.9-env/lib/python3.11/site-packages/librelane/scripts/openroad/floorplan.tcl
