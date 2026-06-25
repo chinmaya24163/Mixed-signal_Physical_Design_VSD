@@ -92,16 +92,28 @@ RTL-to-GDS verification and macro tracing
 
 ---
 
-### Week 3 - AI-Assisted Verification and Debugging
+### Week 3 - AI-Assisted Verification and RTL-to-GDS Investigation
 
-| Section | Description |
-|----------|-------------|
-| [Prompts](./Week3_Task/Prompts/) | Verification and debugging prompts |
-| [Generated Files](./Week3_Task/Generated_Files/) | Additional generated files |
-| [Commands](./Week3_Task/Commands/) | Verification commands |
-| [Errors and Fixes](./Week3_Task/Errors_and_Fixes/) | Issues encountered and fixes |
-| [Screenshots](./Week3_Task/Screenshots/) | Verification screenshots |
-| [Observations](./Week3_Task/Observations/) | Final observations and comparison |
+| Section                                            | Description                                                                                                                                                                                                |
+| -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Prompts](./Week3_Task/Prompts/)                   | AI-assisted prompts used to guide the RTL-to-GDS verification and macro investigation                                                                                                                      |
+| [Generated Files](./Week3_Task/Generated_Files/)   | Actual implementation artifacts generated during the OpenLane flow, including synthesized netlists, floorplan, placement, routed DEFs, final GDS layout, flow logs and AI-generated verification summaries |
+| [Commands](./Week3_Task/Commands/)                 | Command logs documenting the stage-by-stage RTL-to-GDS investigation and implementation verification                                                                                                       |
+| [Errors and Fixes](./Week3_Task/Errors_and_Fixes/) | Investigation of the initial GDS interpretation, root cause analysis and final resolution based on implementation evidence                                                                                 |
+| [Screenshots](./Week3_Task/Screenshots/)           | KLayout screenshots used to verify the physical placement and final layout of the AMUX2_3V analog macro                                                                                                    |
+| [Observations](./Week3_Task/Observations/)         | Complete RTL-to-GDS trace, verification results and final technical conclusions                                                                                                                            |
+
+#### Week 3 Investigation Index
+
+| Investigation                  | Link                                                                                                |
+| ------------------------------ | --------------------------------------------------------------------------------------------------- |
+| RTL-to-GDS Trace               | [01_AMUX2_3V_RTL_to_GDS_Trace](./Week3_Task/Observations/01_AMUX2_3V_RTL_to_GDS_Trace.md)           |
+| RTL-to-GDS Command Log         | [Command_Log_01_RTL_to_GDS_Trace](./Week3_Task/Commands/Command_Log_01_RTL_to_GDS_Trace.md)         |
+| AMUX GDS Investigation         | [Error_01_AMUX_GDS_Investigation](./Week3_Task/Errors_and_Fixes/Error_01_AMUX_GDS_Investigation.md) |
+| RTL-to-GDS Prompt              | [01_RTL_to_GDS_Trace](./Week3_Task/Prompts/01_RTL_to_GDS_Trace.md)                                  |
+| DEF Verification Prompt        | [02_DEF_Verification](./Week3_Task/Prompts/02_DEF_Verification.md)                                  |
+| GDS Layout Verification Prompt | [03_GDS_Layout_Verification](./Week3_Task/Prompts/03_GDS_Layout_Verification.md)                    |
+
 
 ---
 
