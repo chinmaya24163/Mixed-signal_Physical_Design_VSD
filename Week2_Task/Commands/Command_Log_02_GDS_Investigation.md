@@ -117,3 +117,9 @@ The implementation relied on:
 - LIB abstraction
 
 No standalone macro GDS file was used during implementation.
+
+---
+
+## Follow-up Investigation
+
+A more detailed RTL-to-GDS trace performed during Week 3 verified that the AMUX2_3V macro survives synthesis, floorplanning, placement, routing and DEF generation, and is present in the final layout. This command log therefore documents the initial investigation, while the Week 3 command log contains the complete verification.

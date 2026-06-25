@@ -4,6 +4,22 @@ This repository documents my work during the VSD Mixed-Signal Physical Design in
 
 ---
 
+## Repository Workflow
+
+### Week 1
+
+Mixed-signal physical design fundamentals
+
+### Week 2
+
+AI-assisted repository understanding and flow reproduction
+
+### Week 3
+
+RTL-to-GDS verification and macro tracing
+
+---
+
 ## Repository Structure
 
 ### Week 1 - Mixed-Signal Physical Design Fundamentals

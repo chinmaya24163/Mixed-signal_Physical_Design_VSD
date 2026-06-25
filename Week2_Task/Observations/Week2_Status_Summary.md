@@ -99,3 +99,9 @@ Documented:
 ## Outcome
 
 Week 2 successfully established a structured AI-assisted workflow for understanding, reproducing and debugging a mixed-signal OpenLane implementation flow.
+
+---
+
+# Follow-up Investigation
+
+Initial visual inspection did not conclusively identify the macro. A detailed RTL-to-GDS investigation performed during Week 3 confirmed that the macro survives the complete implementation flow and is physically placed in the final design.

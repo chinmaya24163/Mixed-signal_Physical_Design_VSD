@@ -1,0 +1,71 @@
+./README.md:| AMUX2_3V Macro Study         | [03_AMUX2_3V_Macro_Study](./Week2_Task/Prompts/03_AMUX2_3V_Macro_Study.md)  	|
+./Week2_Task/Errors_and_Fixes/Error_02_Power_Connectivity_Warnings.md:Warnings related to power connectivity were observed during mixed-signal implementation of the AMUX2_3V analog macro.
+./Week2_Task/Errors_and_Fixes/Error_02_Power_Connectivity_Warnings.md:AMUX2_3V VPWR VGND VPWR VGND
+./Week2_Task/Prompts/04_Macro_File_Inspection.md:Inspect the actual abstraction files provided for the AMUX2_3V macro and understand how each view contributes to the mixed-signal RTL-to-GDS flow.
+./Week2_Task/Prompts/04_Macro_File_Inspection.md:For the AMUX2_3V analog macro, explain how the following files are used during the OpenLane/OpenROAD flow:
+./Week2_Task/Prompts/04_Macro_File_Inspection.md:1. AMUX2_3V.v
+./Week2_Task/Prompts/04_Macro_File_Inspection.md:2. AMUX2_3V.lef
+./Week2_Task/Prompts/04_Macro_File_Inspection.md:3. AMUX2_3V.lib
+./Week2_Task/Prompts/04_Macro_File_Inspection.md:4. AMUX2_3V.gds
+./Week2_Task/Prompts/04_Macro_File_Inspection.md:### AMUX2_3V.v
+./Week2_Task/Prompts/04_Macro_File_Inspection.md:### AMUX2_3V.lef
+./Week2_Task/Prompts/04_Macro_File_Inspection.md:### AMUX2_3V.lib
+./Week2_Task/Prompts/04_Macro_File_Inspection.md:### AMUX2_3V.gds
+./Week2_Task/Prompts/06_OpenLane_Config_Study.md:        "dir::AMUX2_3V.lef"
+./Week2_Task/Prompts/06_OpenLane_Config_Study.md:        "dir::AMUX2_3V.lib"
+./Week2_Task/Prompts/06_OpenLane_Config_Study.md:        "AMUX2_3V VPWR VGND VPWR VGND"
+./Week2_Task/Prompts/06_OpenLane_Config_Study.md:Imports AMUX2_3V.lef for physical abstraction.
+./Week2_Task/Prompts/06_OpenLane_Config_Study.md:Imports AMUX2_3V.lib for timing characterization.
+./Week2_Task/Prompts/06_OpenLane_Config_Study.md:Identified the critical OpenLane settings responsible for successful mixed-signal integration of the AMUX2_3V analog macro.
+./Week2_Task/Prompts/03_AMUX2_3V_Macro_Study.md:# Prompt 03 - AMUX2_3V Macro Study
+./Week2_Task/Prompts/03_AMUX2_3V_Macro_Study.md:Explain the AMUX2_3V analog macro used in the repository.
+./Week2_Task/Prompts/03_AMUX2_3V_Macro_Study.md:AMUX2_3V is an analog 2:1 multiplexer implemented as a hard macro.
+./Week2_Task/Prompts/07_GDS_Integration_Study.md:Determine whether the reproduced mixed-signal flow performed full analog GDS integration for the AMUX2_3V macro.
+./Week2_Task/Prompts/07_GDS_Integration_Study.md:Investigate how AMUX2_3V is represented during the implementation flow and determine whether a GDS view is merged into the final layout.
+./Week2_Task/Prompts/07_GDS_Integration_Study.md:- AMUX2_3V.lef
+./Week2_Task/Prompts/07_GDS_Integration_Study.md:- AMUX2_3V.lib
+./Week2_Task/Prompts/07_GDS_Integration_Study.md:AMUX2_3V VPWR VGND VPWR VGND
+./Week2_Task/Prompts/07_GDS_Integration_Study.md:- AMUX2_3V.v
+./Week2_Task/Prompts/07_GDS_Integration_Study.md:- AMUX2_3V.lef
+./Week2_Task/Prompts/07_GDS_Integration_Study.md:- AMUX2_3V.lib
+./Week2_Task/Prompts/07_GDS_Integration_Study.md:No AMUX2_3V.gds file was present.
+./Week2_Task/Prompts/07_GDS_Integration_Study.md:cells only. No AMUX2_3V cell instance was visible in the final hierarchy.
+./Week2_Task/Prompts/01_Repo_Analysis.md:The repository implements a mixed-signal RTL-to-GDS flow for the digital top module `design_mux`, which integrates the analog macro `AMUX2_3V`.
+./Week2_Task/Codex_Prompts/Codex_Prompt_03_OpenLane_Config_Generation.md:  - AMUX2_3V
+./Week2_Task/Codex_Prompts/Codex_Prompt_02_Macro_Study.md:Analyze the analog macro AMUX2_3V.
+./Week2_Task/Codex_Prompts/Codex_Prompt_04_PDN_Hook_Generation.md:An analog macro named AMUX2_3V is integrated into a SKY130 OpenLane design.
+./Week2_Task/Codex_Prompts/Codex_Prompt_04_PDN_Hook_Generation.md:        "AMUX2_3V VPWR VGND VPWR VGND"
+./Week2_Task/Codex_Prompts/Codex_Prompt_04_PDN_Hook_Generation.md:This prompt generates the PDN hook configuration required to connect the AMUX2_3V analog macro to the top-level power distribution network during OpenLane implementation.
+./Week2_Task/Codex_Prompts/Codex_Prompt_06_Power_Connectivity_Debug.md:- AMUX2_3V
+./Week2_Task/Generated_Files/AMUX2_3V.v:module AMUX2_3V (
+./Week2_Task/Generated_Files/pdn_hook_generated_by_ai.json:        "AMUX2_3V VPWR VGND VPWR VGND"
+./Week2_Task/Generated_Files/config_generation_notes.md:Generate a mixed-signal OpenLane configuration for integrating the AMUX2_3V analog macro into the design_mux design.
+./Week2_Task/Generated_Files/config_generated_by_ai.json:        "dir::AMUX2_3V.lef"
+./Week2_Task/Generated_Files/config_generated_by_ai.json:        "dir::AMUX2_3V.lib"
+./Week2_Task/Generated_Files/config_generated_by_ai.json:        "AMUX2_3V VPWR VGND VPWR VGND"
+./Week2_Task/Generated_Files/pdn_hook_verification.md:AMUX2_3V VPWR VGND VPWR VGND
+./Week2_Task/Generated_Files/pdn_hook_verification.md:AMUX2_3V VPWR VGND VPWR VGND
+./Week2_Task/Generated_Files/AMUX2_3V_blackbox.md:# AI Generated File 01 - AMUX2_3V Blackbox Verilog
+./Week2_Task/Generated_Files/AMUX2_3V_blackbox.md:Generate a synthesis-safe Verilog blackbox model for an analog macro named AMUX2_3V.
+./Week2_Task/Generated_Files/AMUX2_3V_blackbox.md:module AMUX2_3V (
+./Week2_Task/Commands/Command_Log_02_GDS_Investigation.md:Investigate how the AMUX2_3V analog macro is represented in the reproduced mixed-signal flow and determine whether a dedicated macro GDS is used.
+./Week2_Task/Commands/Command_Log_02_GDS_Investigation.md:- AMUX2_3V.v
+./Week2_Task/Commands/Command_Log_02_GDS_Investigation.md:- AMUX2_3V.lef
+./Week2_Task/Commands/Command_Log_02_GDS_Investigation.md:- AMUX2_3V.lib
+./Week2_Task/Commands/Command_Log_02_GDS_Investigation.md:No AMUX2_3V.gds file was found.
+./Week2_Task/Commands/Command_Log_02_GDS_Investigation.md:grep -R "AMUX2_3V" config.json
+./Week2_Task/Commands/Command_Log_02_GDS_Investigation.md:- AMUX2_3V cell instance
+./Week2_Task/Observations/Deliverables_Checklist.md:- [x] AMUX2_3V investigation completed
+./Week2_Task/Observations/Prompt_History.md:| 03 | AMUX2_3V Macro Study | Understand macro abstractions | Macro study |
+./Week2_Task/Observations/Prompt_History.md:| AMUX2_3V.v | Macro generation workflow |
+./Week2_Task/Observations/Week2_Status_Summary.md:- AMUX2_3V.v
+./Week2_Task/Observations/Week2_Status_Summary.md:- AMUX2_3V.lef
+./Week2_Task/Observations/Week2_Status_Summary.md:- AMUX2_3V.lib
+./Week2_Task/Observations/Week2_Status_Summary.md:- AMUX2_3V.mag
+./Week2_Task/Observations/Week2_Status_Summary.md:- No standalone AMUX2_3V.gds exists in the reference repository.
+./Week2_Task/Observations/Week2_Status_Summary.md:- AMUX2_3V.v
+./Week2_Task/Screenshots/README.md:| macro_files.png | Available AMUX2_3V abstraction views in the reference repository |
+./.git/logs/refs/heads/main:20cc285f23f37392bf776ceeec55d181a683d40b 178587d02bd47a595b79f79950da779ce5d86099 chinmaya24163 <chinmaya24163@iiitd.ac.in> 1781867569 +0530	commit: Add AMUX2_3V macro study
+./.git/logs/refs/heads/main:eb9a486f82dc211836a75ec864ae4be9c16f38f0 3e5d4c3e9938ff2033ae3cc07fef285469b14acb chinmaya24163 <chinmaya24163@iiitd.ac.in> 1781868079 +0530	commit: Add AI-generated AMUX2_3V blackbox model
+./.git/logs/HEAD:20cc285f23f37392bf776ceeec55d181a683d40b 178587d02bd47a595b79f79950da779ce5d86099 chinmaya24163 <chinmaya24163@iiitd.ac.in> 1781867569 +0530	commit: Add AMUX2_3V macro study
+./.git/logs/HEAD:eb9a486f82dc211836a75ec864ae4be9c16f38f0 3e5d4c3e9938ff2033ae3cc07fef285469b14acb chinmaya24163 <chinmaya24163@iiitd.ac.in> 1781868079 +0530	commit: Add AI-generated AMUX2_3V blackbox model

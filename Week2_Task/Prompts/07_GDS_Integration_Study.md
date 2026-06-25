@@ -70,3 +70,7 @@ but did not perform a full analog GDS merge because no macro GDS view was suppli
 ## Outcome
 
 Established that the reproduced implementation represents a LEF/LIB-based mixed-signal integration flow rather than a complete analog GDS integration flow.
+
+## Follow-up Investigation
+
+The initial investigation focused on the absence of a standalone macro GDS file. A subsequent Week 3 investigation confirmed that the macro is nevertheless preserved, placed and routed in the final implementation.
